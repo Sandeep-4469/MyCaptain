@@ -1,3 +1,4 @@
-a,b = map(int,input().split())
-for i in range(a,b+1):
-    print(i,end=" ")
+a = list(map(int,input().split()))
+for i in a:
+    if i>0:
+        print(i,end=" ")
